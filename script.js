@@ -1,3 +1,6 @@
+document.documentElement.classList.remove("no-js");
+document.documentElement.classList.add("js");
+
 const revealedItems = document.querySelectorAll(".reveal");
 
 const revealObserver = new IntersectionObserver(

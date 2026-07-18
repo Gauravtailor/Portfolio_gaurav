@@ -558,13 +558,13 @@ li + li {
   margin-bottom: 0;
 }
 
-.reveal {
+.js .reveal {
   opacity: 0;
   transform: translateY(26px);
   transition: opacity 700ms ease, transform 700ms ease;
 }
 
-.reveal.visible {
+.js .reveal.visible {
   opacity: 1;
   transform: translateY(0);
 }
